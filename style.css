@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --purple-bg: #290742;
+    --dark-bg: #170027;
+    --button-bg: #9e6dc2;
+    --white: #fff;
+    --light-purple: #a55ce2;
+    --green: #4fff4b;
+}
+
+body{
+    background-color: #FBF6FF;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--purple-bg);
+    color: var(--white);
+    padding: 50px;
+    font-size: 1.2rem;
+    height: 150px;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+}
+
+header ul li{
+    margin: 10px;
+}
+
+header ul li:first-child{
+    padding: 2px;
+    border-left: 3px solid var(--green);
+}
+
+header input{
+    background-color: var(--dark-bg);
+    border: none;
+    padding: 12px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+header button{
+    background-color: var(--button-bg);
+    border: none;
+    border-radius: 0 5px;
+    padding: 7px;
+    width: 60px;
+    position: relative;
+    right: 7px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.main{
+    background-color: var(--purple-bg);
+    color: var(--white);
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 5px solid var(--green);
+}
+
+.main a{
+    text-decoration: none;
+    color: var(--button-bg);
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.main h2{
+    color: var(--button-bg);
+    font-size: 2.4em;
+    margin-bottom: 5px;
+}
+
+.main .texto{
+    padding: 20px;
+    margin-left: 100px;
+    width: 470px;
+    text-align: left;  
+}
+
+.main .texto img{
+    position: relative;
+    top: 6px;
+}
+
+.other{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.other h2{
+    color: #290742;
+}
+.article{
+    margin-top: 50px;
+    width: 600px;
+    padding: 5px;
+    margin-right: 100px;
+}
+
+.article h2{
+    color: var(--purple-bg);
+}
+
+aside{
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+article p, h2{
+    margin-bottom: 10px;
+}
+
+.galeria{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    height: 600px;
+}
+
+.fotos{
+    width: 400px;
+}
+
+.fotos h2{
+    margin-bottom: 10px;
+}
